@@ -17,10 +17,14 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.comountainclimber.rn-loglevel-bug"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "android": {
+      "package": "rn.loglevel.bug"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }
